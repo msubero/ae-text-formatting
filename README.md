@@ -23,8 +23,8 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## TODO
-Functionality: synonyms of selected words
-Improve: logic for setting styles to words
+- Functionality: synonyms of selected words
+- Improve: logic for setting styles to words
 
 ## Further help
 
