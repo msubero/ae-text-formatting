@@ -1,0 +1,11 @@
+<app-header [title]="title"></app-header>
+
+<main>
+  <app-control-panel (onSelectedFormat)="setFotmat($event)"></app-control-panel>
+  <app-file
+    (onSelectedText)="setText($event)"
+    [formatedText]="text$ | async"
+  ></app-file>
+</main>
+
+<app-footer></app-footer>
